@@ -1,12 +1,14 @@
 import '../modules/Home.module.scss'
 import Navbar from "../components/Navbar.jsx";
+import Hero from "../components/Hero.jsx";
 
 const Home= ()=> {
 
   return (
     <>
 <Navbar></Navbar>
-home
+        <Hero></Hero>
+
     </>
   )
 }

@@ -1,0 +1,59 @@
+.main{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+padding-top: 80px;
+  padding-bottom: 40px;
+  .top{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 50px;
+     h2 {
+      margin: 0;
+    }
+    .p2{
+      color: #30148a;
+    }
+  }
+  .text{
+    padding-top: 30px;
+    font-size: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+  }
+.button-holder{
+  padding-top: 80px;
+  display: flex;
+  gap: 20px;
+  button{
+    border-radius: 15px;
+padding: 10px 120px;
+    border: 2px solid rgba(0, 0, 0, 0.24);
+    text-decoration: none;
+    color: black;
+a{
+  text-decoration: none;
+  color: black;
+}
+  }
+  .button1{
+    text-decoration: none;
+    background-color: #000000;
+a{
+  color: white;
+}
+  }
+  @media (max-width: 1024px) {
+    flex-direction: column;
+  }
+}
+}
