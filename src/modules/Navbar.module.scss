@@ -6,7 +6,6 @@
     align-items: center;
     padding: 15px 30px;
     .logo {
-      //border: 2px solid blue;
       .logo-link {
         text-decoration: none;
         font-size: 22px;
@@ -19,7 +18,6 @@
     .nav-items {
       display: flex;
       gap: 90px;
-      //border: 2px solid yellow;
       .navLink {
         text-decoration: none;
         color: rgba(0, 0, 0, 0.3);
@@ -58,11 +56,7 @@
     align-items: flex-start;
     padding: 10px 30px;
 
-    //@media (max-width: 1280px) {
-    //  display: none;
-    //}
     .logo {
-      //border: 2px solid blue;
       .logo-link {
         text-decoration: none;
         font-size: 22px;

@@ -19,7 +19,7 @@ const Navbar = ()=> {
                 <Link to={'/'} className={classes['logo-link']}>TechCo</Link>
             </div>
             <div className={classes['nav-items']}>
-                <Link to={'/products'} className={classes['navLink']}>Products</Link>
+                <Link to={'/productsList'} className={classes['navLink']}>Products</Link>
                 <Link to={'/features'} className={classes['navLink']}>Features</Link>
                 <Link to={'/dashboard'} className={classes['navLink']}>Dashboard</Link>
                 <Link to={'/cart'} className={classes['navLink']}>Cart</Link>
@@ -39,7 +39,7 @@ const Navbar = ()=> {
                     </div>
 
                     <div className={classes['main-burger-navbar']}>
-                        <Link to={'/products'} className={classes['navLink-burger']}>Products</Link>
+                        <Link to={'/productsList'} className={classes['navLink-burger']}>Products</Link>
                         <Link to={'/features'} className={classes['navLink-burger']}>Features</Link>
                         <Link to={'/dashboard'} className={classes['navLink-burger']}>Dashboard</Link>
                         <Link to={'/cart'} className={classes['navLink-burger']}>Cart</Link>

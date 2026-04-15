@@ -17,7 +17,7 @@ const Hero =()=>{
 
             <div className={classes['button-holder']}>
                 <button className={classes['button1']}>
-                    <Link to={'/products'} className={classes['navLink']}> explore Product</Link>
+                    <Link to={'/productsList'} className={classes['navLink']}> explore Product</Link>
                 </button>
                 <button >
                     <Link to={'/features'} className={classes['navLink-burger']}> Learn More</Link>
