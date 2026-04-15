@@ -1,21 +1,18 @@
-import classes from '../modules/Card.module.scss'
-import iphone from '../assets/iphone.jpg'
-const Card = () =>{
-    return(
-        // <div className={classes['main']}>
-        //     <img src={iphone} alt="iphone"
-        //     <p>Smartphone</p>
-        //     <p>Iphone 13</p>
-        //     <p>Revolutionary performance in your pocket</p>
-        // </div>
-        <div className={classes['main']}>
-            <img src={iphone} alt="iphone" className={classes['image']}/>
-            <p className={classes['p1']}>Smartphone</p>
-             <p className={classes['p2']}>Iphone 13</p>
-             <p className={classes['p1']}>Revolutionary performance in your pocket</p>
-            <p className={classes['p2']}>999$</p>
-        </div>
-    )
-}
+import classes from '../modules/Card.module.scss';
 
-export default Card
+const Card = ({ product }) => {
+    return (
+        <div className={classes.card}>
+            <img src={product.image} alt={product.title} />
+
+            <div className={classes.content}>
+                <p>{product.category}</p>
+                <p>{product.title}</p>
+                <p>{product.desc}</p>
+                <p>${product.price}</p>
+            </div>
+        </div>
+    );
+};
+
+export default Card;
