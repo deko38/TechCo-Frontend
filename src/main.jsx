@@ -3,7 +3,7 @@ import Home from './pages/Home.jsx'
 import {BrowserRouter, Route, Routes} from "react-router";
 import Features from "./pages/Features.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
-// import Products from "./pages/Products.jsx";
+import Products from "./pages/Products.jsx";
 import Cart from "./pages/Cart.jsx";
 
 
@@ -14,6 +14,7 @@ createRoot(document.getElementById('root')).render(
                 <Route path="/features" element={<Features/>}/>
                 <Route path="/dashboard" element={<Dashboard/>}/>
                 <Route path="/cart" element={<Cart/>}/>
+                <Route path="/products" element={<Products/>}/>
 
                 {/*<Route path="/productsList/:id" element={<ProductDetails/>}/>*/}
                 {/*<Route path="/productsList/:category" element={<Products />} />*/}

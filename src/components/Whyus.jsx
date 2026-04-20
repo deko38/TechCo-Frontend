@@ -4,7 +4,7 @@ import icon2 from '../assets/icon2.png'
 import icon3 from '../assets/icon3.png'
 
 
-const Whyus = ({ product }) => {
+const Whyus = ( ) => {
     return (
         <div className={classes['main']}>
 
