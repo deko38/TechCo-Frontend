@@ -1,0 +1,44 @@
+.main {
+  background-color: #30148a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    p {
+      margin: 0;
+      font-size: 50px;
+      color: white;
+
+    }
+
+    .p2 {
+      margin: 0;
+      font-size: 20px;
+      color: rgba(255, 255, 255, 0.6);
+
+    }
+
+    button {
+      border-radius: 15px;
+      padding: 15px 50px;
+      border: 2px solid rgba(0, 0, 0, 0.24);
+      text-decoration: none;
+      color: black;
+margin-top: 5px;
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}
